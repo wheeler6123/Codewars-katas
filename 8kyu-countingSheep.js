@@ -23,3 +23,4 @@ function countSheeps(arrayOfSheep) {
       }
       return sheep;
     }
+    
