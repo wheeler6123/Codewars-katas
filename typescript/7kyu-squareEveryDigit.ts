@@ -10,11 +10,11 @@
 
 export class Kata {
     static squareDigits(num: number): number {
-        let nums = num.toString().split('');
-        let numStr = '';
+        let nums: string[] = num.toString().split('');
+        let numStr: string = '';
 
         for (let i = 0; i < nums.length; i++) {
-            let currNum = nums[i];
+            let currNum: string = nums[i];
 
             numStr += (+currNum * +currNum);
         }
