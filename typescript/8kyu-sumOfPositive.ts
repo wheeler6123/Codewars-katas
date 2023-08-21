@@ -7,7 +7,7 @@ Note: if there is nothing to sum, the sum is default to 0.
 */
 
 export function positiveSum(arr: number[]): number {
-    let posOnly = arr.filter(num => num > 0);
+    let posOnly: number[] = arr.filter(num => num > 0);
 
     return posOnly.length ? posOnly.reduce((a, b) => a + b) : 0
 }
